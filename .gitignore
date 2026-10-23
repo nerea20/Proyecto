@@ -1,0 +1,25 @@
+# Secretos y configuración local
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Java / Maven
+target/
+*.class
+*.log
+.idea/
+.vscode/
+
+# Angular / Node
+node_modules/
+dist/
+.angular/
+coverage/
+
+# Datos locales y temporales
+mysql_data/
+data/
+.DS_Store
+Thumbs.db
